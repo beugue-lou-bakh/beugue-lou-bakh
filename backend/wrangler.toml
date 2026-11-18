@@ -1,0 +1,15 @@
+name = "beugue-lou-bakh-api"
+main = "src/index.ts"
+compatibility_date = "2026-11-09"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "beugue-lou-bakh-db"
+database_id = "0145ff92-90cd-4d08-a41e-c26f6caf879e"
+remote = true
+migrations_dir = "./backend/migrations"
+
+[[r2_buckets]]
+binding = "VIDEOS"
+bucket_name = "beugue-lou-bakh-videos"
+remote = true
